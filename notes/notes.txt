@@ -1,0 +1,12 @@
+COMPILATION
+***************************************
+
+Main.java (source file contains source code)  ----- compile [javac Main.java]---> Main.class contains bytecode 
+Main.class contains bytecode (intermediate code)
+
+EXECUTION
+***************************************
+java Main
+
+packages:
+folders
