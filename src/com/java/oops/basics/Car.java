@@ -3,9 +3,9 @@ package com.java.oops.basics;
 public class Car {
 
 	// Instance Variables | Object Variables HAS
-	String color;
-	String model;
-	float mielage;
+	String color;//null
+	String model;//null
+	float mielage;//0.0f
 
 	
 	//Methods ✅ or Functions | DOES Part
