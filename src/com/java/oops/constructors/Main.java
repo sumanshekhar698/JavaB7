@@ -1,5 +1,7 @@
 package com.java.oops.constructors;
 
+import com.java.oops.access_modifiers.Employee;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -10,6 +12,9 @@ public class Main {
 		System.out.println(mango.hashCode());
 		Fruit returnSelf = mango.returnSelf();
 		System.out.println(returnSelf.hashCode());
+		
+//		Employee emp1 = new Employee("John", 700000, 156, true);
+
 
 
 	}
