@@ -2,11 +2,12 @@ package com.java.oops.arrays.one_dimension;
 
 import java.util.Arrays;
 
-public class Main {
+public class VarArgs {
 
 	public static void main(String... suman) {// psvm(String args[])
 		// String args[] is used to accept arguments during RUNTIME
 
+		int[] arr = new int[0];
 		System.out.println("Hello");
 		System.out.println(suman.length);// 1
 		System.out.println(suman[2]);// 2
@@ -18,6 +19,8 @@ public class Main {
 //			System.out.println("World");
 
 		test("Barbie", "Monkey", "Mission");
+		test();
+		
 
 	}
 
@@ -28,6 +31,10 @@ public class Main {
 		for (String element : params) {// foreach
 			System.out.println(element);
 		}
+	}
+
+	static void test() {
+		System.out.println("test() called");
 	}
 
 }
