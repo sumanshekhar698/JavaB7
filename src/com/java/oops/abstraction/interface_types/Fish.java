@@ -16,25 +16,25 @@ interface Birds {
 
 }
 
-interface Animal extends Fish,Birds {//An interface can extend multiple interfaces
+interface Animal extends Fish, Birds {// An interface can extend multiple interfaces
 
 	boolean isBreathingUnderWater = true;
 
 	int lifeSpanOfAFish();
 }
 
-class Whale implements Animal{
+class Whale implements Animal {
 
 	@Override
 	public void fishesSwimming() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void flying() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
@@ -42,5 +42,5 @@ class Whale implements Animal{
 		// TODO Auto-generated method stub
 		return 0;
 	}
-	
+
 }
