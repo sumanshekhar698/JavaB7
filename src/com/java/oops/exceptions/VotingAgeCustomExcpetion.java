@@ -25,7 +25,6 @@ public class VotingAgeCustomExcpetion {
 			throw new InvalidVotingAgeException("Not Eligible for Voting");
 
 		}
-
 	}
 
 }
